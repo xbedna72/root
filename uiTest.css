@@ -1,1 +1,46 @@
+html{
+    height: 100%;
+}
 
+h1, h2, h3, h4, h5, h6, p, a, dt, th, td {
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    height: inherit; 
+    margin: 0 auto; 
+    display: flex; 
+    flex-direction:inherit;
+}
+
+body div {
+    padding-left: 20px; 
+    padding-right: 20px; 
+    float:left;
+}
+
+h4 {
+    border-bottom: 1px black solid; 
+}
+
+#element img {
+     width: 100px; 
+    }
+
+#window img 
+{
+    width: 900px;
+}
+
+#window {
+    background-color: #cacaca;
+}
+
+#method img {
+     width: 770px; 
+}
+
+#errorP{ 
+    color: red; 
+    font-size: 20px;
+}
