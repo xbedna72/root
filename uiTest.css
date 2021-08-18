@@ -28,10 +28,6 @@ body div {
     background-color:ghostwhite;
 }
 
-h4 {
-    border-bottom: 1px black solid; 
-}
-
 #header {
     margin-bottom: 20px;
     margin-top: 20px;
@@ -58,7 +54,7 @@ h4 {
 }
 
 #errorP{ 
-    color: red; 
+    color: rgb(197, 23, 23);
     font-size: 20px;
 }
 
@@ -72,4 +68,17 @@ footer{
     margin-top: 100px;
     height: 100%;
     width: 100%;
+}
+
+#success {
+    color: rgb(34, 143, 34);
+    font-size: 20px;
+}
+
+#failed {
+    color: rgb(197, 23, 23);
+}
+
+#skipped {
+    color: grey;
 }
