@@ -74,10 +74,10 @@ div.method h4 {
     display: inline-block;
 }
 
-div.method p {
+div.method i {
     display: inline-block;
 }
 
-div.case p {
+div.case i {
     overflow-wrap: break-word;
 }
