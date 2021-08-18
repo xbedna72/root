@@ -78,6 +78,6 @@ footer{
     display: inline-block;
 }
 
-.case i {
+.case p {
     overflow-wrap: break-word;
 }
