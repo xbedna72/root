@@ -69,15 +69,15 @@ footer{
     width: 100%;
 }
 
-div.method h4 {
+.method h4 {
     margin-right: 50px;
     display: inline-block;
 }
 
-div.method i {
+.method i {
     display: inline-block;
 }
 
-div.case i {
+.case i {
     overflow-wrap: break-word;
 }
