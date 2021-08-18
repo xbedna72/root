@@ -69,19 +69,6 @@ footer{
     width: 100%;
 }
 
-#success {
-    color: rgb(34, 143, 34);
-    font-size: 20px;
-}
-
-#failed {
-    color: rgb(197, 23, 23);
-}
-
-#skipped {
-    color: grey;
-}
-
 h4.method {
     margin-right: 50px;
     display: inline-block;
