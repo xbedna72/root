@@ -1,7 +1,6 @@
 html{
     height: 100%;
     width: 100%;
-    background-color: deepskyblue;
 }
 
 img {
@@ -31,7 +30,7 @@ body div {
 #header {
     margin-bottom: 20px;
     margin-top: 20px;
-    border-color: rgb(123, 188, 253);
+    border-color: rgb(232, 234, 236);
     border-style:outset;
     border-width: 4px;
 }
@@ -81,4 +80,13 @@ footer{
 
 #skipped {
     color: grey;
+}
+
+h4.method {
+    margin-right: 50px;
+    display: inline-block;
+}
+
+p.method {
+    display: inline-block;
 }
