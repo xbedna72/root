@@ -1,6 +1,7 @@
 html{
     height: 100%;
     width: 100%;
+    background-color: rgba(16, 133, 243, 0.567);
 }
 
 img {
@@ -27,12 +28,14 @@ body div {
     background-color:ghostwhite;
 }
 
-#header {
+div.header {
     margin-bottom: 20px;
     margin-top: 20px;
-    border-color: rgb(232, 234, 236);
+    display: inline-block;
     border-style:outset;
     border-width: 4px;
+    margin-bottom: 25px;
+    background-color: ghostwhite;
 }
 
 #element img {
@@ -71,10 +74,26 @@ footer{
 
 .method h4 {
     margin-right: 50px;
+    font-size: 25px;
     display: inline-block;
 }
 
-.method i {
+.fas.fa-check {
+    color: green;
+    font-size: 30px;
+}
+
+.fas.fa-times {
+    color: red;
+    font-size: 30px;
+}
+
+.fas.fa-forward {
+    color: grey;
+    font-size: 30px;
+}
+
+i {
     display: inline-block;
 }
 
