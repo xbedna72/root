@@ -4,7 +4,7 @@ html{
 }
 
 img {
-    width: 1000px;
+    width: 850px;
     height: 500px;
 }
 
@@ -76,4 +76,8 @@ h4.method {
 
 p.method {
     display: inline-block;
+}
+
+p.case {
+    overflow-wrap: break-word;
 }
