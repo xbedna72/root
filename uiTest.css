@@ -3,13 +3,14 @@ html {
     width: 100%;
     background-color: rgba(16, 133, 243, 0.4);
 }
+
 img {
     width: 850px;
     height: 500px;
 }
 
-h1, h2, h3, h4, h5, h6, p, a, dt, th, td {
-    font-family: 'Roboto', sans-serif;
+h1, h2, h3, h4, h5, h6, p, a, dt, th, td, .fas {
+    font-family: "Font Awesome 5 Free", 'Roboto', sans-serif !important;
 }
 
 body {
@@ -20,15 +21,40 @@ body {
     max-width: 1000px;
 }
 
-.method, .case {
+.tests .method {
+    box-shadow: 0px 8px 8px -8px black;
     padding-left: 20px;
     padding-right: 20px;
-    float: left;
     width: 960px;
+    display: inline-block;
 }
 
-.method div, .case div {
+.tests :last-of-type .method {
+    box-shadow: none;
+    background-color: black;
+}
+
+.methodHeader {
+    margin-top: 8px;
+    float: left;
+    width: 960px;
+    font-size: 25px !important;
+}
+
+.case, .note, .screen {
+    margin-left: 20px;
+    margin-top: 8px;
+    float: left;
+    width: 940px;
+}
+
+.case div {
     width: 100%;
+}
+
+.case h5 {
+    display: inline-block;
+    font-size: 15px;
 }
 
 .tests {
@@ -83,28 +109,34 @@ footer {
     padding: 20px;
 }
 
-.method h4 {
-    margin-right: 50px;
+.methodHeader {
+    font-weight: normal;
     font-size: 25px;
-    display: inline-block;
 }
 
+.methodHeader h4, .methodHeader p {
+    margin-right: 10px;
+    font-size: 25px;
+    display: inline-block;
+    font-weight: 600 !important;
+}
+.fas{
+    float: right;
+}
 .fas.fa-check {
     color: green;
-    font-size: 30px;
-    float: right;
 }
 
 .fas.fa-times {
     color: red;
-    font-size: 30px;
-    float: right;
 }
 
 .fas.fa-forward {
     color: grey;
-    font-size: 30px;
-    float: right;
+}
+
+.fas p {
+    margin-left: 20px;
 }
 
 i {
@@ -118,4 +150,8 @@ i {
 .method p {
     overflow-wrap: break-word;
     display: inline-block;
+}
+
+.case p, .case i {
+    font-size: 15px !important;
 }
