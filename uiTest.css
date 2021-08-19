@@ -1,9 +1,8 @@
-html{
+html {
     height: 100%;
     width: 100%;
-    background-color: rgba(16, 133, 243, 0.567);
+    background-color: rgba(16, 133, 243, 0.4);
 }
-
 img {
     width: 850px;
     height: 500px;
@@ -14,62 +13,74 @@ h1, h2, h3, h4, h5, h6, p, a, dt, th, td {
 }
 
 body {
-    height: inherit; 
-    margin: 0 auto 0 auto; 
-    display: flex; 
+    height: inherit;
+    margin: 0 auto 0 auto;
+    display: flex;
     flex-direction: column;
     max-width: 1000px;
 }
 
-body div {
-    padding-left: 20px; 
-    padding-right: 20px; 
-    float:left;
-    background-color:ghostwhite;
+.method, .case {
+    padding-left: 20px;
+    padding-right: 20px;
+    float: left;
+    width: 960px;
 }
 
-div.header {
+.method div, .case div {
+    width: 100%;
+}
+
+.tests {
+    float: left;
+    background-color: ghostwhite;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px black;
+}
+
+.header {
     margin-bottom: 20px;
     margin-top: 20px;
     display: inline-block;
-    border-style:outset;
-    border-width: 4px;
     margin-bottom: 25px;
     background-color: ghostwhite;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0px 0px 10px black;
 }
 
 #element img {
-     width: 100px; 
+    width: 100px;
 }
 
-#window img 
-{
+#window img {
     width: 900px;
 }
 
-#window {
-    background-color: #cacaca;
-}
-
 #method img {
-     width: 770px; 
+    width: 770px;
 }
 
-#errorP{ 
+#errorP {
     color: rgb(197, 23, 23);
     font-size: 20px;
 }
 
-footer{
+footer {
     width: 1000px;
     display: flex;
     margin: 0 auto;
-}
-
-#footer{
     margin-top: 100px;
     height: 100%;
-    width: 100%;
+    max-width: 1000px;
+    background-color: ghostwhite;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    box-shadow: 0px 0px 10px black;
+}
+
+#footer {
+    padding: 20px;
 }
 
 .method h4 {
@@ -81,16 +92,19 @@ footer{
 .fas.fa-check {
     color: green;
     font-size: 30px;
+    float: right;
 }
 
 .fas.fa-times {
     color: red;
     font-size: 30px;
+    float: right;
 }
 
 .fas.fa-forward {
     color: grey;
     font-size: 30px;
+    float: right;
 }
 
 i {
@@ -99,4 +113,9 @@ i {
 
 .case p {
     overflow-wrap: break-word;
+}
+
+.method p {
+    overflow-wrap: break-word;
+    display: inline-block;
 }
