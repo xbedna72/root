@@ -48,6 +48,10 @@ body {
     width: 940px;
 }
 
+.methodBody {
+    display: none;
+}
+
 .case div {
     width: 100%;
 }
@@ -120,9 +124,11 @@ footer {
     display: inline-block;
     font-weight: 600 !important;
 }
-.fas{
+
+.fas {
     float: right;
 }
+
 .fas.fa-check {
     color: green;
 }
@@ -150,8 +156,40 @@ i {
 .method p {
     overflow-wrap: break-word;
     display: inline-block;
+    word-wrap: wrap;
+    word-break: break-all;
 }
 
 .case p, .case i {
     font-size: 15px !important;
+}
+
+button {
+    background-color: transparent;
+    border: none;
+    border-radius: 45px;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.8);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+    text-align: center;
+    align-content: center;
+    padding: 10px;
+    padding-left: 23px;
+    padding-right: 23px;
+    padding-bottom: 9px;
+    float: right;
+    margin-bottom: 15px;
+}
+
+button:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    transform: translateY(-4px);
+}
+
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+
+.show {
+    display: block;
 }
